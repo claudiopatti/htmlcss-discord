@@ -7,6 +7,7 @@ reset
     padding: 0;
     box-sizing: border-box;
     font-family: "Roboto", sans-serif;
+    
 }
 
 /* 
@@ -34,22 +35,23 @@ general
 
 
 .casella-celeste {
-    background-color: #1e90ff;
-    width: 60%;
+    text-align: center;
+    width: 65%;
     min-height: 300px;
-    border: 2px dashed black;
+}
+
+.casella-celeste img {
+    width: 650px;
+
 }
 
 .casella-pink {
-
-    background-color: #ffc0cb;
-    width: 40%;
-    min-height: 300px;
-    border: 2px dashed black;
+    width: 35%;
+    min-height: 350px;
 }
 
 .container-caselle {
-    width: 800px;
+    width: 1000px;
     margin: 30px auto;
     display: flex;
    
@@ -73,6 +75,11 @@ general
 
 .button-lightblack {
     background-color: #23272a;
+    color: white;
+}
+
+.button-lilla {
+    background-color: #7289da;
     color: white;
 }
 
@@ -119,11 +126,6 @@ general
     padding: 10px;
 }
 
-
-/*
- main  
-*/
-
 .casella-fucsia {
     width: 700px;
     min-height: 250px;
@@ -142,21 +144,51 @@ general
     margin: 20px;
 }
 
+/*
+ main  
+*/
+
+.casella-pink h2 {
+    font-size: 45px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
 .background-gray {
-    background-color: #d3d3d3;
+    background-color: #f6f6f6;
     margin: 0 auto;
     display: flex;
+    
 }
 
 .casella-verde {
-    background-color: #228b22;
-    width: 800px;
+    width: 1000px;
     margin: auto;
     display: flex;
-    min-height: 500px;
-    border: 2px dashed black;
-   
+    min-height: 950px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
 
+.casella-verde h2 {
+    font-size: 40px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.casella-verde img {
+    width: 1000px;
+}
+
+.fine-main {
+    background-image: url(../img/stars.svg);
+    background-size: 500px;
+    background-repeat: no-repeat;
+    padding: 35px;
+    width: 500px;
+    height: 100px;
+    font-size: 27px;
 }
 
 /*
