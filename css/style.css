@@ -61,16 +61,16 @@ general
 .background-lightblack {
     background-color: #23272a;
     margin: 0 auto;
-    padding-top: 10px;
+    padding-top: 40px;
     
     
 }
 
 .caratteristic-button {
     border-radius: 20px;
-    padding: 8px;
+    padding: 15px;
     border: 0;
-    font-size: large;
+    font-size: 15px;
 }
 
 .button-lightblack {
@@ -196,44 +196,93 @@ footer
 */
 
 .casella-carne {
-    background-color: #f08080;
-    border: 2px dashed black;
-    width: 30%;
+    width: 20%;
     min-height: 400px;
+}
+
+.casella-carne h3 {
+    font-size: 30px;
+    color: #7289da;
+}
+
+.font-awesome > * {
+    color: white;
+    padding-right:  15px;
+    font-size: 20px;
+    
+} 
+
+.menu-italiano {
+    display: flex;
+    margin: 20px 0;
+}
+
+.casella-carne img {
+    width: 30px;
+}
+
+.italiano {
+    color: white;
+    margin-left: 3px;
+    font-size: 15px;
+}
+
+.seconda-tabella {
+
+    width: 80%;
+    min-height: 400px;
+    display: flex;
     
 
 }
 
+
 .casella-lightgreen {
-    background-color: #20b2aa;
-    border: 2px dashed black;
-    width: 70%;
-    min-height: 400px;
+   
     display: flex;
 }
 
 .casella-lightgreen > * {
-    border: 2px dashed white;
-    width: calc(100% / 4);
-    display: flex;
+    width: calc(960px / 4);
+    
+    
+}
+
+.title-footer {
+    color: #7289da;
+}
+
+ul {
+    list-style-type: none;
+   
+}
+
+ul li {
+    padding: 10px 0;
+}
+
+li a {
+    color: white;
+    text-decoration: none;
+    
+    
 }
 
 .container-caselle-footer {
-    width: 800px;
+    width: 1200px;
     margin: 0px auto 30px ;
     display: flex;
    
 }
 
 .riga {
-    border: 1px solid white;
-    width: 800px;
+    border: 1px solid #7289da;
+    width: 1200px;
     margin: 0 auto;
 }
 
 .background-acqua {
-    background-color: #5db094;
-    width: 800px;
+    width: 1200px;
     min-height: 60px;
     margin: 20px auto 0;
     display: flex;
@@ -244,10 +293,7 @@ footer
 }
 
 .background-acqua > * {
-    background-color: #e6a5af;
-    border: 2px dashed black;
     padding: 5px;
-    
     text-align: center;
 }
 
