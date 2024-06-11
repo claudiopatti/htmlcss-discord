@@ -24,7 +24,7 @@ general
     
 }
 
-.background-blu {
+.background-immagin {
     background-image: url(../img/jumbo.png);
     background-size: cover;
     background-position: center;
@@ -34,18 +34,18 @@ general
 }
 
 
-.casella-celeste {
+.casella-immagine {
     text-align: center;
     width: 65%;
     min-height: 300px;
 }
 
-.casella-celeste img {
+.casella-immagine img {
     width: 650px;
 
 }
 
-.casella-pink {
+.casella-testo {
     width: 35%;
     min-height: 350px;
 }
@@ -126,7 +126,7 @@ general
     padding: 10px;
 }
 
-.casella-fucsia {
+.casella-title-header {
     width: 700px;
     min-height: 250px;
     margin: 150px auto;
@@ -136,11 +136,11 @@ general
 
 }
 
-.casella-fucsia span {
+.casella-title-header span {
     display: inline-block;
 }
 
-.casella-fucsia h1 {
+.casella-title-header h1 {
     margin: 20px;
 }
 
@@ -148,7 +148,7 @@ general
  main  
 */
 
-.casella-pink h2 {
+.casella-testo h2 {
     font-size: 45px;
     padding-top: 30px;
     padding-bottom: 20px;
@@ -161,7 +161,7 @@ general
     
 }
 
-.casella-verde {
+.casella-fine-main {
     width: 1000px;
     margin: auto;
     display: flex;
@@ -171,13 +171,13 @@ general
     text-align: center;
 }
 
-.casella-verde h2 {
+.casella-fine-main h2 {
     font-size: 40px;
     padding-top: 30px;
     padding-bottom: 20px;
 }
 
-.casella-verde img {
+.casella-fine-main img {
     width: 1000px;
 }
 
@@ -195,12 +195,12 @@ general
 footer  
 */
 
-.casella-carne {
+.casella-social {
     width: 20%;
     min-height: 400px;
 }
 
-.casella-carne h3 {
+.casella-social h3 {
     font-size: 30px;
     color: #7289da;
 }
@@ -217,7 +217,7 @@ footer
     margin: 20px 0;
 }
 
-.casella-carne img {
+.casella-social img {
     width: 30px;
 }
 
@@ -237,12 +237,12 @@ footer
 }
 
 
-.casella-lightgreen {
+.casella-info {
    
     display: flex;
 }
 
-.casella-lightgreen > * {
+.casella-info > * {
     width: calc(960px / 4);
     
     
@@ -281,7 +281,7 @@ li a {
     margin: 0 auto;
 }
 
-.background-acqua {
+.background-footer {
     width: 1200px;
     min-height: 60px;
     margin: 20px auto 0;
@@ -292,7 +292,7 @@ li a {
 
 }
 
-.background-acqua > * {
+.background-footer > * {
     padding: 5px;
     text-align: center;
 }
