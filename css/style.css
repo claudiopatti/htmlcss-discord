@@ -92,6 +92,10 @@ span {
     opacity: 0.1;
 }
 
+.back-wave {
+    transform: rotate(180deg);
+}
+
 /*
  header 
 */
@@ -164,7 +168,7 @@ span {
 }
 
 .background-gray {
-    background-color: #f6f6f6;
+    background-color: rgba(0, 0, 0, 0.1);
     margin: 0 auto;
     display: flex;
     
